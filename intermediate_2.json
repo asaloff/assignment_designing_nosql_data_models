@@ -1,0 +1,108 @@
+// You're building a backend for a university that requires students to be able to login.
+// Once logged in, the students can view the exam grades for their classes.
+// They should be able to view results by semester.
+// Each semester should only show the classes in which that student is enrolled that semester.
+
+// student
+{
+  "id": 1,
+  "firstName": "Bob",
+  "lastName": "Saget",
+  "email": "bsaget@education.com",
+  "password": "strongpassword1",
+  "semesters": [
+    {
+      "id": "spring2017",
+      "gpa": 3.8,
+      "classes": [
+        {
+          "code": "CES1" ,
+          "subject": "Computer Science",
+          "teacher": "Phil Robinson PHD",
+          "exams": [
+            {
+              "name": "First Exam",
+              "grade": 90
+            },
+            {
+              "name": "Midterm",
+              "grade": 92
+            },
+            {
+              "name": "Final",
+              "grade": 88
+            }
+          ],
+          "totalGrade": 90
+        },
+        {
+          "code": "CES1" ,
+          "subject": "Computer Science",
+          "teacher": "Phil Robinson PHD",
+          "exams": [
+            {
+              "name": "First Exam",
+              "grade": 90
+            },
+            {
+              "name": "Midterm",
+              "grade": 92
+            },
+            {
+              "name": "Final",
+              "grade": 88
+            }
+          ],
+          "totalGrade": 90
+        }
+      ]
+    },
+
+    {
+      "id": "fall2017",
+      "gpa": 3.6,
+      "classes": [
+        {
+          "code": "CES1" ,
+          "subject": "Computer Science",
+          "teacher": "Phil Robinson PHD",
+          "exams": [
+            {
+              "name": "First Exam",
+              "grade": 90
+            },
+            {
+              "name": "Midterm",
+              "grade": 92
+            },
+            {
+              "name": "Final",
+              "grade": 88
+            }
+          ],
+          "totalGrade": 90
+        },
+        {
+          "code": "CES1" ,
+          "subject": "Computer Science",
+          "teacher": "Phil Robinson PHD",
+          "exams": [
+            {
+              "name": "First Exam",
+              "grade": 90
+            },
+            {
+              "name": "Midterm",
+              "grade": 92
+            },
+            {
+              "name": "Final",
+              "grade": 88
+            }
+          ],
+          "totalGrade": 90
+        }
+      ]
+    }
+  ]
+}

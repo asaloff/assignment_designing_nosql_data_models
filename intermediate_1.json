@@ -1,0 +1,37 @@
+// You're building a restaurant table reserving app that allows users to reserve tables for specified numbers of people.
+// The app will need to show only tables that are available and the times they are available.
+// The app will need to store reservations under a given name with a phone number and number of guests.
+
+// table
+{
+  "id": 1,
+  "seats": 4,
+  "reservedOn": [
+    "1/1/17 05:30:00",
+    "1/1/17 06:30:00",
+    "1/1/17 07:30:00",
+    "1/1/17 08:30:00",
+    "1/1/17 09:30:00"
+  ]
+},
+{
+  "id": 2,
+  "seats": 4,
+  "reservedOn": [
+    "1/1/17 05:30:00",
+    "1/1/17 06:30:00",
+    "1/1/17 07:30:00",
+    "1/1/17 08:30:00",
+    "1/1/17 09:30:00"
+  ]
+},
+
+// reservation
+{
+  "id": 1,
+  "tables": [1, 2],
+  "name": "Someone",
+  "phone": "987654327",
+  "guestCount": 8,
+  "date": "1/1/17 05:30:00"
+}

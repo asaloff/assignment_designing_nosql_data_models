@@ -1,0 +1,52 @@
+// Your eCommerce business needs to keep track of products and their prices.
+// The products each belong to a department.
+// The business needs to keep track of revenue as product prices change over time.
+// The business also needs to keep track of receipts of transactions and the number of units each product has in stock.
+
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Great Value Pickles",
+      "price": 4.49,
+      "department": "food",
+      "stock": 27
+    },
+    {
+      "id": 2,
+      "name": "Great Value Cucumbers",
+      "price": 3.80,
+      "department": "food",
+      "stock": 27
+    }
+  ]
+}
+
+// sales
+{
+  "sales": {
+    "transactions": [
+      {
+        "id": 1,
+        "date": "7/14/17",
+        "productIds": [1],
+        "price": 4.99
+      },
+      {
+        "id": 1,
+        "date": "7/14/17",
+        "productIds": [1, 2],
+        "price": 8.79
+      }
+    ],
+    "departmentSales": {
+      "food": {
+        "total": 13.78
+      },
+      "toys": {
+        "total": 0
+      }
+    },
+    "totalSales": 13.78
+  }
+}
